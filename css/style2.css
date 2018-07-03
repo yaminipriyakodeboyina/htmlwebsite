@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+}
+
+/* Header section */
+
+header {
+  background-color: antiquewhite;
+  position: fixed;
+  z-index: 3;
+  font-size: 40px;
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 0%;
+}
+
+/* Navigation bar */
+
+.nav {
+  float: right;
+  font-size: 10px;
+  padding-left: 20%;
+  padding-right: 0%;
+  text-decoration: none;
+  background-color: antiquewhite;
+}
+
+/* navigation links*/
+
+.navlink {
+  display: inline;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-right: 60px;
+  text-decoration: none;
+  font-family: "Bitter";
+}
+
+ul a {
+  padding-top: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Must visit places section */
+
+#info {
+  padding-top: 4px;
+  padding-left: 0;
+}
+
+/* Hero images section */
+
+.hero-image {
+  padding-left: 0;
+  padding-top: 56px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* text on hero image */
+
+.hero-text {
+  text-align: center;
+  width: 100%;
+  ;
+  position: absolute;
+  padding-top: 180px;
+  font-size: 120%;
+  padding-left: 0;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.button {
+  padding-top: 20px;
+}
+
+.link {
+  color: rgb(180, 129, 53);
+  font-weight: bold;
+  font-family: "lato";
+  text-decoration: none;
+  background-color: antiquewhite;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 1px;
+}
+
+/*Explore with us section */
+
+.grid-item1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-right: 0%;
+  padding: 20px;
+}
+
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  padding-left: 30px;
+  text-align: center;
+}
+/* Must visit places content */
+.exp {
+  width: 30%;
+  padding-left: 0px;
+  float: left;
+  text-align: justify;
+  padding-left: 30px;
+  font-family: "Lora";
+}
+.exp1
+{
+  width: 30%;
+  padding-left: 0px;
+  float: left;
+  text-align: center;
+  padding-left: 30px;
+  font-family: "Lora";
+
+}
+
+.text {
+  font-size: 110%;
+  font-family: "Habibi";
+  text-align: justify;
+}
+
+/*footer Section*/
+
+.container12 {
+  content: "";
+  clear: both;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.788);
+  padding-bottom: 200px;
+  padding-top: 0px;
+}
+
+.grid6 {
+  font-family: "Roboto";
+  float: left;
+  box-sizing: border-box;
+  display: table;
+  width: 33%;
+  padding-left: 130px;
+  height: 20px;
+  position: relative;
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center justify;
+  padding-top: 20px;
+  line-height: 150%;
+  list-style-type: none;
+}
+
+/*footer links*/
+
+.flink {
+  text-decoration: none;
+  list-style-type: none;
+  color: whitesmoke;
+  padding-left: 0%;
+}
+
+.bullet {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.hero-image1 {
+  padding-top: 40px;
+}
+
+/* 960 grid section */
+
+.container_12 {
+  padding-bottom: 10px;
+}
+
+.container_12 :hover {
+  opacity: 0.9;
+}
+
+.book {
+  font-family: "Lora";
+  font-size: 120%;
+}
+
+.grid_4 {
+  text-align: center;
+}
+
+.offers {
+  font-family: "Roboto Slab";
+  font-size: 3ch;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
