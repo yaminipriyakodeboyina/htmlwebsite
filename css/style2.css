@@ -141,9 +141,9 @@ ul a {
 .container12 {
   content: "";
   clear: both;
-  box-sizing: border-box;
+  
   background-color: rgba(0, 0, 0, 0.788);
-  padding-bottom: 200px;
+  padding-bottom: 227px;
   padding-top: 0px;
 }
 
